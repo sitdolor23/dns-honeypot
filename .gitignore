@@ -1,0 +1,8 @@
+# Python environment / bytecode
+.venv/
+__pycache__/
+*.pyc
+
+# Honeypot runtime artifacts (generated at run time, not source code)
+dns_honeypot.json
+*.log
