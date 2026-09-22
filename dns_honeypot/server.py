@@ -82,7 +82,3 @@ def main() -> None:
     while True:
         data, addr = sock.recvfrom(512)  
         handle_query(data, addr, sock)
-
-
-if __name__ == "__main__":
-    main()
